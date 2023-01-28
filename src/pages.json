@@ -1,0 +1,231 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "汽配件",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/camera",
+			"style": {
+				"navigationBarTitleText": "拍照识别车架号/VIN码"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/pim/pim",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/agreement/index",
+			"style": {
+				"navigationBarTitleText": "说明"
+			}
+		},
+		{
+			"path": "pages/product/index",
+			"style": {
+				"navigationBarTitleText": "配件列表",
+				"navigationBarBackgroundColor": "#f8faff"
+			}
+		},
+		{
+			"path": "pages/product/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/product/search",
+			"style": {
+				"navigationBarTitleText": "配件搜索",
+				"navigationBarBackgroundColor": "#f8faff"
+			}
+		},
+		{
+			"path": "pages/product/product-list",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		},
+		{
+			"path": "pages/product/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor": "#F8FAFF"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/shopping/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/account/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/order-form/order-form",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/account/member-detail/member-detail",
+			"style": {
+				"navigationStyle": "custom", // 会员详情页面隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/account/member-detail/vip-history",
+			"style": {
+				"navigationBarTitleText": "开通记录"
+			}
+		},
+		{
+			"path": "pages/account/after-sale/after-sale",
+			"style": {
+				"navigationBarTitleText": "售后管理"
+			}
+		},
+		{
+			"path": "pages/account/after-sale/after-sale-detail",
+			"style": {
+				"navigationBarTitleText": "售后状态"
+			}
+		},
+		{
+			"path": "pages/account/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/account/address/address-detail",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/account/referrer/referrer",
+			"style": {
+				"navigationBarTitleText": "推荐人"
+			}
+		},
+		{
+			"path": "pages/account/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/account/agreements/privacy-policy",
+			"style": {
+				"navigationBarTitleText": "隐私协议"
+			}
+		},
+		{
+			"path": "pages/account/agreements/user-agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/account/order-form/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/account/order-form/payment-success",
+			"style": {
+				"navigationBarTitleText": "交易结果"
+			}
+		},
+		{
+			"path": "pages/account/corporate-profile/corporate-profile",
+			"style": {
+				"navigationBarTitleText": "企业信息"
+			}
+		},
+		{
+			"path": "pages/account/member/member",
+			"style": {
+				"navigationStyle": "custom", // 会员页面隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/account/refund/refund",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		},
+		{
+			"path": "pages/account/map-detail/map-detail",
+			"style": {
+				"navigationBarTitleText": "物流详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColorTop": "#F8F8F8",
+		"backgroundColorBottom": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"pageOrientation": "portrait"
+	},
+	"tabBar": {
+		"color": "#8E9199",
+		"selectedColor": "#3B72FF",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/tab-index.png",
+				"selectedIconPath": "static/tabbar/tab-index-sel.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/shopping/index",
+				"iconPath": "static/tabbar/tab-record.png",
+				"selectedIconPath": "static/tabbar/tab-record-sel.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/account/index",
+				"iconPath": "static/tabbar/tab-home.png",
+				"selectedIconPath": "static/tabbar/tab-home-sel.png",
+				"text": "我的"
+			}
+		]
+	},
+	"style": "v2",
+	"easycom": {
+		"autoscan": true,
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"gwin-(.*)": "@/components/gwin-$1/gwin-$1.vue"
+	}
+}
